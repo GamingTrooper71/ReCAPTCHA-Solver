@@ -56,7 +56,7 @@ class ReCaptcha:
                 content_type='audio/mpeg',
                 recognize_callback=RecognizeCallback,
                 model='en-US_BroadbandModel',
-                keywords=[],
+                keywords=['verdict', 'is', 'hot'],
                 keywords_threshold=0,
                 max_alternatives=3)
 
